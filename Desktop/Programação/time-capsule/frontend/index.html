@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cápsula do Tempo</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🕰️ Cápsula do Tempo</h1>
+    <form id="capsule-form">
+      <label>Nome:</label>
+      <input type="text" name="name" required />
+
+      <label>Mensagem:</label>
+      <textarea name="message" required></textarea>
+
+      <label>Imagem (opcional):</label>
+      <input type="file" name="image" />
+
+      <label>Ano para abrir:</label>
+      <input type="number" name="open_year" min="2025" max="2100" required />
+
+      <button type="submit">Guardar Cápsula</button>
+    </form>
+    <div id="response"></div>
+  </div>
+
+  <script src="./js/app.js"></script>
+</body>
+</html>
