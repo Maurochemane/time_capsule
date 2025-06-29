@@ -1,13 +1,11 @@
 const express = require('express');
 const router = express.Router();
 
-// Controlador com a lógica de negócio
 const capsuleController = require('../controllers/capsule.controller');
+const upload = require('../middleware/upload');
 
-// Rota POST: Criar uma nova cápsula
-router.post('/', capsuleController.createCapsule);
-
-// Rota GET: Listar cápsulas cujo ano de abertura chegou ou passou
+// A rota agora processa upload de imagem
+router.post('/', upload.single('image'), capsuleController.createCapsule);
 router.get('/open', capsuleController.getOpenCapsules);
 
 module.exports = router;
