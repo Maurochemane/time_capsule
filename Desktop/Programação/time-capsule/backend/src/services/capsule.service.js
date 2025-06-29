@@ -1,4 +1,6 @@
+
 const { Pool } = require('pg');
+
 
 // Configurar conexão PostgreSQL
 const pool = new Pool({
@@ -8,6 +10,7 @@ const pool = new Pool({
     database: process.env.DB_NAME,
     port: process.env.DB_PORT
 });
+
 
 // Insere nova cápsula
 exports.insertCapsule = async ({ name, message, image_url, open_year }) => {
@@ -27,3 +30,4 @@ exports.getCapsulesToOpen = async (currentYear) => {
     );
     return result.rows;
 };
+
