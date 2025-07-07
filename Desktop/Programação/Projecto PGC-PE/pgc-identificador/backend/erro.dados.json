@@ -1,0 +1,440 @@
+[
+    {
+      "contas": [
+        {
+          "Classe": "1",
+          "Nome": "Meios financeiros",
+          "Contas": [
+            {
+              "Conta": "1.1",
+              "Nome": "Caixa"
+            },
+            {
+              "Conta": "1.2",
+              "Nome": "Bancos",
+              "Subcontas": [
+                {
+                  "Conta": "1.2.1",
+                  "Nome": "Depósitos à ordem"
+                },
+                {
+                  "Conta": "1.2.2",
+                  "Nome": "Depósitos com pré-aviso"
+                },
+                {
+                  "Conta": "1.2.3",
+                  "Nome": "Depósitos à prazo"
+                }
+              ]
+            },
+            {
+              "Conta": "1.3",
+              "Nome": "Outros instrumentos financeiros",
+              "Subcontas": [
+                {
+                  "Conta": "1.3.1",
+                  "Nome": "Derivados"
+                },
+                {
+                  "Conta": "1.3.2",
+                  "Nome": "Detidos para negociação"
+                },
+                {
+                  "Conta": "1.3.3",
+                  "Nome": "Outros instrumentos financeiros ao justo valor através dos resultados"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Classe": "2",
+          "Nome": "Inventários e activos biológicos",
+          "Contas": [
+            {
+              "Conta": "2.1",
+              "Nome": "Compras",
+              "Subcontas": [
+                {
+                  "Conta": "2.1.1",
+                  "Nome": "Mercadorias"
+                },
+                {
+                  "Conta": "2.1.2",
+                  "Nome": "Matérias primas, auxiliares e materiais",
+                  "Subcontas": [
+                    {
+                      "Conta": "2.1.2.1",
+                      "Nome": "Matérias primas"
+                    },
+                    {
+                      "Conta": "2.1.2.2",
+                      "Nome": "Matérias auxiliares"
+                    },
+                    {
+                      "Conta": "2.1.2.3",
+                      "Nome": "Materiais",
+                      "Subcontas": [
+                        {
+                          "Conta": "2.1.2.3.1",
+                          "Nome": "Combustíveis e lubrificantes"
+                        },
+                        {
+                          "Conta": "2.1.2.3.2",
+                          "Nome": "Embalagens comerciais"
+                        },
+                        {
+                          "Conta": "2.1.2.3.3",
+                          "Nome": "Peças e sobressalentes"
+                        },
+                        {
+                          "Conta": "2.1.2.3.9",
+                          "Nome": "Materiais diversos"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "Conta": "2.1.7",
+                  "Nome": "Devoluções de compras"
+                },
+                {
+                  "Conta": "2.1.8",
+                  "Nome": "Descontos e abatimentos em compras"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Classe": "3",
+      "Nome": "Investimentos de capital",
+      "Contas": [
+        {
+          "Conta": "3.1",
+          "Nome": "Investimentos financeiros",
+          "Subcontas": [
+            {
+              "Conta": "3.1.1",
+              "Nome": "Investimentos em subsidiárias"
+            },
+            {
+              "Conta": "3.1.2",
+              "Nome": "Investimentos em associadas"
+            },
+            {
+              "Conta": "3.1.3",
+              "Nome": "Investimentos em entidades conjuntamente controladas"
+            },
+            {
+              "Conta": "3.1.4",
+              "Nome": "Outros investimentos financeiros"
+            },
+            {
+              "Conta": "3.1.5",
+              "Nome": "Investimentos detidos até à maturidade"
+            },
+            {
+              "Conta": "3.1.6",
+              "Nome": "Outros investimentos disponíveis para venda"
+            }
+          ]
+        },
+        {
+          "Conta": "3.2",
+          "Nome": "Activos tangíveis",
+          "Subcontas": [
+            {
+              "Conta": "3.2.1",
+              "Nome": "Construções"
+            },
+            {
+              "Conta": "3.2.2",
+              "Nome": "Equipamento básico"
+            },
+            {
+              "Conta": "3.2.3",
+              "Nome": "Mobiliário e equipamento administrativo social"
+            },
+            {
+              "Conta": "3.2.4",
+              "Nome": "Equipamento de transporte"
+            },
+            {
+              "Conta": "3.2.5",
+              "Nome": "Taras e vasilhame"
+            },
+            {
+              "Conta": "3.2.6",
+              "Nome": "Ferramentas e utensílios"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Classe": "4",
+      "Nome": "Contas a receber, contas a pagar, acréscimos e diferimentos",
+      "Contas": [
+        {
+          "Conta": "4.1",
+          "Nome": "Clientes",
+          "Subcontas": [
+            {
+              "Conta": "4.1.1",
+              "Nome": "Clientes c/c"
+            },
+            {
+              "Conta": "4.1.2",
+              "Nome": "Clientes - títulos a receber"
+            },
+            {
+              "Conta": "4.1.8",
+              "Nome": "Clientes de cobrança duvidosa"
+            },
+            {
+              "Conta": "4.1.9",
+              "Nome": "Adiantamentos de clientes"
+            }
+          ]
+        },
+        {
+          "Conta": "4.2",
+          "Nome": "Fornecedores",
+          "Subcontas": [
+            {
+              "Conta": "4.2.1",
+              "Nome": "Fornecedores c/c"
+            },
+            {
+              "Conta": "4.2.2",
+              "Nome": "Fornecedores - Títulos a pagar"
+            },
+            {
+              "Conta": "4.2.9",
+              "Nome": "Adiantamentos a fornecedores"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Classe": "5",
+      "Nome": "Capital próprio",
+      "Contas": [
+        {
+          "Conta": "5.1",
+          "Nome": "Capital"
+        },
+        {
+          "Conta": "5.2",
+          "Nome": "Acções ou quotas próprias",
+          "Subcontas": [
+            {
+              "Conta": "5.2.1",
+              "Nome": "Valor nominal"
+            },
+            {
+              "Conta": "5.2.2",
+              "Nome": "Descontos e prémios"
+            }
+          ]
+        },
+        {
+          "Conta": "5.3",
+          "Nome": "Prestações suplementares"
+        },
+        {
+          "Conta": "5.4",
+          "Nome": "Prémios de emissão de acções ou quotas"
+        },
+        {
+          "Conta": "5.5",
+          "Nome": "Reservas",
+          "Subcontas": [
+            {
+              "Conta": "5.5.1",
+              "Nome": "Reservas legais"
+            },
+            {
+              "Conta": "5.5.2",
+              "Nome": "Reservas estatutárias"
+            },
+            {
+              "Conta": "5.5.3",
+              "Nome": "Reservas livres"
+            }
+          ]
+        },
+        {
+          "Conta": "5.6",
+          "Nome": "Resultados transitados"
+        },
+        {
+          "Conta": "5.7",
+          "Nome": "Resultado líquido do período"
+        },
+        {
+          "Conta": "5.8",
+          "Nome": "Ajustamentos em activos financeiros"
+        },
+        {
+          "Conta": "5.9",
+          "Nome": "Outras variações no capital próprio"
+        }
+      ]
+    },
+    {
+      "Classe": "6",
+      "Nome": "Gastos e perdas",
+      "Contas": [
+        {
+          "Conta": "6.1",
+          "Nome": "Custo dos inventários",
+          "Subcontas": [
+            {
+              "Conta": "6.1.1",
+              "Nome": "Custo dos inventários vendidos ou consumidos"
+            },
+            {
+              "Conta": "6.1.2",
+              "Nome": "Variação da produção"
+            }
+          ]
+        },
+        {
+          "Conta": "6.2",
+          "Nome": "Gastos com o pessoal",
+          "Subcontas": [
+            {
+              "Conta": "6.2.1",
+              "Nome": "Remunerações dos órgãos sociais"
+            },
+            {
+              "Conta": "6.2.2",
+              "Nome": "Remunerações dos trabalhadores"
+            },
+            {
+              "Conta": "6.2.3",
+              "Nome": "Encargos sobre remunerações"
+            },
+            {
+              "Conta": "6.2.4",
+              "Nome": "Benefícios pós-emprego"
+            },
+            {
+              "Conta": "6.2.5",
+              "Nome": "Ajudas de custo"
+            },
+            {
+              "Conta": "6.2.6",
+              "Nome": "Indemnizações"
+            },
+            {
+              "Conta": "6.2.7",
+              "Nome": "Seguros de acidentes no trabalho e doenças profissionais"
+            },
+            {
+              "Conta": "6.2.8",
+              "Nome": "Gastos de acção social"
+            },
+            {
+              "Conta": "6.2.9",
+              "Nome": "Outros gastos com pessoal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Classe": "7",
+      "Nome": "Rendimentos e ganhos",
+      "Contas": [
+        {
+          "Conta": "7.1",
+          "Nome": "Vendas",
+          "Subcontas": [
+            {
+              "Conta": "7.1.1",
+              "Nome": "Mercadorias"
+            },
+            {
+              "Conta": "7.1.2",
+              "Nome": "Produtos acabados e intermédios"
+            },
+            {
+              "Conta": "7.1.3",
+              "Nome": "Subprodutos, desperdícios, resíduos e refugos"
+            },
+            {
+              "Conta": "7.1.4",
+              "Nome": "Activos biológicos"
+            }
+          ]
+        },
+        {
+          "Conta": "7.2",
+          "Nome": "Prestação de serviços"
+        },
+        {
+          "Conta": "7.5",
+          "Nome": "Rendimentos suplementares"
+        },
+        {
+          "Conta": "7.6",
+          "Nome": "Outros rendimentos e ganhos operacionais"
+        }
+      ]
+    },
+    {
+      "Classe": "8",
+      "Nome": "Resultados",
+      "Contas": [
+        {
+          "Conta": "8.1",
+          "Nome": "Resultados operacionais"
+        },
+        {
+          "Conta": "8.2",
+          "Nome": "Resultados financeiros"
+        },
+        {
+          "Conta": "8.3",
+          "Nome": "Resultados correntes"
+        },
+        {
+          "Conta": "8.5",
+          "Nome": "Imposto sobre o rendimento"
+        },
+        {
+          "Conta": "8.8",
+          "Nome": "Resultado líquido do período"
+        },
+        {
+          "Conta": "8.9",
+          "Nome": "Dividendos antecipados"
+        }
+      ]
+    },
+    {
+      "Classe": "9",
+      "Nome": "Controlo orçamental",
+      "Contas": [
+        {
+          "Conta": "9.1",
+          "Nome": "Orçamento de exploração"
+        },
+        {
+          "Conta": "9.2",
+          "Nome": "Orçamento de investimento"
+        },
+        {
+          "Conta": "9.3",
+          "Nome": "Orçamento de tesouraria"
+        }
+      ]
+    }
+  ]
