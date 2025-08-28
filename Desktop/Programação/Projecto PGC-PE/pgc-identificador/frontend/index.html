@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Identificador PGC-PE</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Identificador de Contas | PGC-PE</h1>
+      <div class="nav">
+        <input
+          type="text"
+          id="pesquisa"
+          placeholder="Insira nome ou número da conta"
+        />
+        <button onclick="pesquisar()">Pesquisar</button>
+      </div>
+      <div class="res-bar">
+        <div class="text">
+          <p>Conta</p>
+          <p>subconta</p>
+          <p>Classe</p>
+        </div>
+        <div class="items">
+          <div class="item" id="conta"></div>
+          <div class="item" id="classe"></div>
+          <div class="item" id="subconta"></div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <h2>Mauro chemane | Retro style</h2>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -10,7 +10,7 @@
       {
         "Conta": "1.2",
         "Nome": "Bancos",
-        "Subcontas": [
+        "    ": [
           {
             "Conta": "1.2.1",
             "Nome": "Depósitos à ordem"
